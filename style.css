@@ -1,0 +1,107 @@
+body {
+  
+  min-height: 400px;
+  background-color: skyblue;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  font-family: helvetica;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+#cabecalho{
+  border-bottom: 2px solid #424242;
+  border-top: 2px solid #424242;
+  padding-bottom: 5px;
+}
+
+.page-title {
+  color:#424242;
+  margin: 0 0 5px;
+  
+}
+
+.page-subtitle {
+  color:#424242;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.media{
+  font-size: 105px;
+}
+
+form{
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top:-450px ;
+  width: 300px;
+  height: 320px;
+  background-image: url();
+  text-align: justify;
+}
+
+input{
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  margin-top: px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+label{
+  width: 300px;
+  float: left;
+  margin-top: 30px;
+  color: #333;
+}
+
+#botao{
+  float: right;
+  margin-right: 20px; 
+  margin-top: -100px;
+  height: 100px;
+}
+button{
+  height: 100px;
+  width: 60px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+
+}
+button:active{
+  border-top: 1px solid #424242;
+  background-color: lightgray ;
+}
+
+#campoMedia{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  text-align: center;
+  width: 300px;
+  color: #333;
+
+}
+
+#sub{
+  font-weight: bold;
+}
